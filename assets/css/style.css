@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -134,6 +135,7 @@ header ul li a.info {
     border: none;
     border-bottom: 1px solid #fff;
 }
+
 /* /Banner Section End */
 
 /* Fun Section Start */
@@ -194,15 +196,15 @@ header ul li a.info {
 }
 
 .newsletter h2 {
-    margin-left:49% ;
+    margin-left: 49%;
     color: #fff;
-     font-size: 25px; 
-     font-weight: normal; 
+    font-size: 25px;
+    font-weight: normal;
     padding: 4px;
 }
 
 .newsletter p {
-    margin-left:45% ;
+    margin-left: 45%;
     color: #fff;
     font-size: 16px;
     font-weight: normal;
@@ -225,9 +227,9 @@ header ul li a.info {
 }
 
 .newsletter form .btn {
-     width: 12%; 
-      height: 42px; 
-      margin-left:20px ;
+    width: 12%;
+    height: 42px;
+    margin-left: 20px;
     /* align-items: center; */
     /* padding: 10px 9px; */
 }
@@ -242,7 +244,7 @@ header ul li a.info {
 }
 
 .destination h2 {
-    padding-bottom:35px; 
+    padding-bottom: 35px;
     color: #fff;
     text-align: center;
     font-size: 30px;
@@ -284,49 +286,163 @@ header ul li a.info {
 
 /* /destination section End */
 /* Estimate Section Start */
-.estimate{
+.estimate {
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+    background: #664DAD;
+    position: relative;
+}
+
+.estimate h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    margin-right: 76%;
+}
+
+.estimate h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    margin-right: 79%;
+}
+
+.estimate h3 span {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffdeb3;
+}
+
+.estimate form select,
+.estimate form input[type] {
+    width: 15%;
+    height: 35px;
+    margin: 35px 9px;
+    padding: 8px;
+}
+
+.estimate form .btn {
+    border: none;
+    background: #EE8A24;
+}
+
+.estimate form lable {
+    display: none;
+}
+
+.estimate img {
+    width: 300px;
+    height: 260px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* /Estimate Section End */
+/* Blog Section Start */
+.blog{
     width:100%;
     height:auto;
     padding:50px 125px;
-    background:#664DAD;
-    position:relative ;
+
 }
-.estimate h2{
-    color:#fff;
+.blog h2{
     text-align: center;
-    font-size:25px ;
-    font-weight:normal ;
-    margin-right:76%;
+    color: #000;
+    margin-bottom:10px ;
 }
-.estimate h3{
-    color:#fff;
+.blog h2+p{
     text-align: center;
-    font-weight:normal ;
-    margin-right:79% ;
+    padding:0px 200px ;
 }
-.estimate h3 span{ 
-    padding-bottom: 10px;
-    border-bottom:2px solid #ffdeb3;
+.blog-content{
+    margin:10px auto;
+    display: flex;
 }
-.estimate form select,
-.estimate form input[type]{
- width:15%;
- height:35px;
- margin:35px 9px;
- padding:8px ;
+.blog-content div{
+    display: flex;
+    padding: 11px;
 }
-.estimate form .btn{
-    border:none ;
-    background:#EE8A24;
+.blog-content div img{
+    margin-top:33px ;
+    width:150px ;
+    height:150px ;
 }
-.estimate form lable{
-  display:none ;
+.blog-content div div{
+    display:inline-block ;
 }
-.estimate img{
-    width:300px;
-    height:260px ;
-    position: absolute;
-    bottom:0;
-    right:0 ;
+.blog-content div div{
+  margin:25px ; 
 }
-/* /Estimate Section End */
+.blog-content div p{
+    margin:15px 0px; 
+}
+
+/* /Blog Section End */
+/* Footer Section Start */
+footer{
+    width:100%;
+    height:auto;
+    padding:50px 125px;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/tower2.jpg) ;
+    
+
+}
+footer .topfooter{
+    display: flex;
+    justify-content:space-between ;
+}
+footer .topfooter h3{
+    color:#7F7D8D;
+    font-size:23px ;
+    font-weight:500 ;
+    margin-bottom:11px ;
+}
+footer .topfooter ul li{
+    list-style:none ;
+}
+footer .topfooter ul li a{
+    color:#434149;
+}
+footer .topfooter ul li a span{
+    color:#fff;
+}
+footer .topfooter .international div{
+    display: flex;
+    justify-content:space-between ;
+}
+footer .topfooter .international div .inter1{
+    margin-right:50px;
+}
+footer .topfooter .international ul li img{
+    width:18px;
+    height:14px;
+}
+footer .topfooter .international ul li a{
+    color:#7F7D8D; 
+}
+footer .bottomfooter{
+    display: flex;
+}
+footer .bottomfooter .img{
+    margin-top: 46px;
+}
+footer .bottomfooter .footmenu ul li{
+    display:inline-block ;
+    margin-top:50px ;
+    margin-left:14px ;
+}
+footer .bottomfooter .footmenu p{
+    color:#64616A;
+    margin-left:11px ;
+}
+footer .bottomfooter .social{
+    margin-left:32% ;
+}
+footer .bottomfooter .social ul li{
+    display:inline-block ;
+     margin-top:50px ;
+     margin-left:8px ;
+}
+/* /Footer Section End */
